@@ -9,7 +9,7 @@ public class PlatformConstants {
     public final static String SYSTEMSECRET = "YOUR_SYSTEMSECRET";
     public final static String PLATFORM_URL = "YOUR_PLATFORMURL";
     public final static String MESSAGING_URL = "YOUR_MESSAGINGURL";
-    public final static String COLLECTIONID = "cee2a7dd0abef288e8f0fcf18663";
+    public final static String COLLECTIONID = "YOUR_COLLECTIONID";
     public static String USER_EMAIL = "";
 
     public static String getSystemKey() {
