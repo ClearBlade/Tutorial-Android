@@ -5,8 +5,8 @@ This tutorial uses the ClearBlade Android API to communicate with the platform. 
 ## Setup
 
 #### Installing Android Studio
-- Download and install Android Studio from <a href="https://developer.android.com/sdk/index.html" target="_blank">here</a> and configure the SDKs from the instructions
-given from <a href="https://developer.android.com/sdk/installing/index.html" target="_blank">here</a>
+- Download and install Android Studio <a href="https://developer.android.com/sdk/index.html" target="_blank">here</a> and configure the SDKs from the instructions
+given <a href="https://developer.android.com/sdk/installing/index.html" target="_blank">here</a>
 
 #### Clone this repository and open in Android Studio
 - Do a ``` git clone https://github.com/ClearBlade/Tutorial-Android.git```
