@@ -22,5 +22,8 @@ public final static String SYSTEMSECRET = "YOUR_SYSTEMSECRET";
 public final static String PLATFORM_URL = "YOUR_PLATFORMURL";
 public final static String MESSAGING_URL = "YOUR_MESSAGINGURL";
 ```
+If your using a local instance try 
+platform_url = "http://localhost:8080";
+messaging_url = localhost;
 
 Then hit the 'Run' button and enjoy the turorial! 
