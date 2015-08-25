@@ -1,6 +1,6 @@
 # Android Tutorial for ClearBlade
 
-This tutorial uses the ClearBlade Android API to communicate with the platform.
+This tutorial uses the ClearBlade Android API to communicate with the platform. This tutorial will help you get familiar with the ClearBlade Platform and give a brief explanation of concepts like Collections, Code Services, Libraries, Triggers, Timers and Messaging.
 
 ## Setup
 
@@ -23,4 +23,4 @@ public final static String PLATFORM_URL = "YOUR_PLATFORMURL";
 public final static String MESSAGING_URL = "YOUR_MESSAGINGURL";
 ```
 
-Then hit the 'Run' button and enjoy the turorial!
+Then hit the 'Run' button and enjoy the turorial! 
