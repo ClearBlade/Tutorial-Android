@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="tutorial.clearblade.com.clearbladetutorial.MessagingActivity">
+
+    <TextView android:text="Introduction to Messaging" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#010101"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The ClearBlade Platform uses MQTT for messaging. The MQTT protocol is a messaging protocol commonly used in the Internet of Things. It is a slimmed down protocol that sits on top of TCP. It uses a publish subscribe idiom, where a user chooses a topic to publish on, or subscribe to. A publish can only occur on one topic, but a subscriber can be subscribed to a great many topics. In addition, there are varying qualities of service that can be applied to a published message, to assure that the subscribers receive it"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Messaging"
+        android:id="@+id/button10"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:onClick="pubSubActivity"/>
+
+</RelativeLayout>

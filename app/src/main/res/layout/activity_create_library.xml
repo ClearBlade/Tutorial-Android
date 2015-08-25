@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="tutorial.clearblade.com.clearbladetutorial.CreateLibraryActivity">
+
+    <TextView android:text="Create Library" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView1"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#010001" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libraries are code that you wish to share between Code Services. A library should be structured like a service, in the sense that it is a function one calls. Most likely something that returns an object with methods. When a library is added to a service, nothing from that library is instantiated. You can treat it like regular JavaScript."
+        android:id="@+id/textView21"
+        android:layout_marginTop="47dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validate Part 6"
+        android:id="@+id/button8"
+        android:layout_below="@+id/textView22"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:onClick="goToMessaging"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check out Part 6 of the tutorial"
+        android:id="@+id/textView22"
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView21"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

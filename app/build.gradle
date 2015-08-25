@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.0 rc2"
+
+    defaultConfig {
+        applicationId "tutorial.clearblade.com.clearbladetutorial"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    compile files('libs/gson-2.2.4.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.google.android.gms:play-services:7.5.0'
+    compile files('libs/org.eclipse.paho.client.mqttv3-1.0.2.jar')
+    compile files('libs/ClearBlade_Android_API.jar')
+    compile files('libs/org.eclipse.paho.android.service-1.0.3-20150825.040754-155.jar')
+}

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="tutorial.clearblade.com.clearbladetutorial.LoginSuccessActivity">
+
+    <TextView android:id="@+id/success" android:text="Congratulations! You have logged in as " android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textColor="#011"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Now go to your System on the platform, select the Data tab and create a new Cloud Collection named 'Weather'"
+        android:id="@+id/textView14"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Add columns for city, state, country, temperature and weather"
+        android:id="@+id/textView15"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Insert a row for 'Austin, TX, US, 102, Sunny' and for 'Austin, TX, US, 77, Cloudy'"
+        android:id="@+id/textView16"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Enable 'Read' permissions on the collection for authenticated users"
+        android:id="@+id/textView17"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validate Part 3"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="collectionActivity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check out Part 3 of the Tutorial"
+        android:id="@+id/textView18"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ClearBlade Tutorial</string>
+    <string name="action_settings">Settings</string>
+    <string name="initFail_title">Initialization Error</string>
+    <string name="initFail_message">ClearBlade Init Failed. Please check the platform URL, System key and System Secret</string>
+    <string name="authInitFail_message">ClearBlade Init Failed. Please check the platform URL, System key, System Secret and User credentials</string>
+    <string name="message">message</string>
+</resources>
