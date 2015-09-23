@@ -25,6 +25,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.google.android.gms:play-services:7.5.0'
     compile files('libs/org.eclipse.paho.client.mqttv3-1.0.2.jar')
+    compile files('libs/org.eclipse.paho.android.service-1.0.3-20150922.040612-166.jar')
     compile files('libs/ClearBlade_Android_API.jar')
-    compile files('libs/org.eclipse.paho.android.service-1.0.3-20150825.040754-155.jar')
 }
