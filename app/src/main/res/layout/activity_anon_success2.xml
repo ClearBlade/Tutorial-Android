@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:text="Next"
         android:id="@+id/button3"
-        android:onClick="goToLogin"
+        android:onClick="goToLoginChooser"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 

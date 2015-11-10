@@ -7,18 +7,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class AnonSuccessActivity2 extends AppCompatActivity {
+public class LoginChooserActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anon_success2);
+        setContentView(R.layout.activity_login_chooser);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_anon_success_activity2, menu);
+        getMenuInflater().inflate(R.menu.menu_login_chooser, menu);
         return true;
     }
 
@@ -37,8 +37,13 @@ public class AnonSuccessActivity2 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void goToLoginChooser(View view) {
-        Intent intent = new Intent(AnonSuccessActivity2.this, LoginChooserActivity.class);
+    public void goToLoginWithEmail(View view) {
+        Intent intent = new Intent(LoginChooserActivity.this, LoginActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToLoginWithCert(View view) {
+        Intent intent = new Intent(LoginChooserActivity.this, LoginWithCertActivity.class);
         startActivity(intent);
     }
 }

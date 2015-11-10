@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -22,6 +23,7 @@ public class LoginSuccessActivity extends AppCompatActivity {
 
     private Context ctx = this;
     public static String collectionData = "";
+    private MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,9 @@ public class LoginSuccessActivity extends AppCompatActivity {
         TextView text = new TextView(this);
         text = (TextView) findViewById(R.id.success);
         text.append(PlatformConstants.getUserEmail());
+
+        mediaPlayer = MediaPlayer.create(LoginSuccessActivity.this, R.raw.tada);
+        mediaPlayer.start();
     }
 
     @Override
@@ -56,6 +61,7 @@ public class LoginSuccessActivity extends AppCompatActivity {
 
     public void collectionActivity(View view) {
 
+        mediaPlayer.stop();
         final Collection collection = new Collection(PlatformConstants.getCollectionID());
         collection.fetchAll(new DataCallback() {
             @Override

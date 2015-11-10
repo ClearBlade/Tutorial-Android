@@ -5,4 +5,8 @@
     <string name="initFail_message">ClearBlade Init Failed. Please check the platform URL, System key and System Secret</string>
     <string name="authInitFail_message">ClearBlade Init Failed. Please check the platform URL, System key, System Secret and User credentials</string>
     <string name="message">message</string>
+    <string name="title_activity_login_chooser">LoginChooserActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login_with_cert">LoginWithCertActivity</string>
 </resources>
