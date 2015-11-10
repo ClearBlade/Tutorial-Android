@@ -15,12 +15,13 @@ browse to the Tutorial-Android directory and hit open
 
 #### Editing PlatformConstants.java to add the SystemKey, SystemSecret, PlatformURL and MessagingURL
 - In Android Studio navigate to Tutorial-Android -> app -> src -> main -> java -> tutorial.clearblade.com.clearbladetutorial
-- Open the PlatformConstants.java file and add your systemkey, systemsecret, platformURL and messagingURL
+- Open the PlatformConstants.java file and add your systemkey, systemsecret, platformURL, collectionID and messagingURL
 ```java
 public final static String SYSTEMKEY = "YOUR_SYSTEMKEY";
 public final static String SYSTEMSECRET = "YOUR_SYSTEMSECRET";
 public final static String PLATFORM_URL = "YOUR_PLATFORMURL";
 public final static String MESSAGING_URL = "YOUR_MESSAGINGURL";
+public final static String COLLECTIONID = "YOUR_COLLECTIONID";
 ```
 If your using a local instance try 
 platform_url = "http://localhost:8080";
